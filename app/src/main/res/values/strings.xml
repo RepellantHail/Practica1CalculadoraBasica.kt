@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculadora Basica</string>
+    <string name="txtIngresarDato">Ingrese Numero</string>
+    <string name="txtNum1">Ingrese Primer Numero</string>
+    <string name="txtNum2">Ingrese Segundo Numero</string>
+
+    <string name="btnSum">+</string>
+    <string name="btnRes">-</string>
+    <string name="btnMul">*</string>
+    <string name="btnDiv">/</string>
+
+    <string name="btnCalcular">Calcular</string>
+    <string name="txtResultado">Resultado</string>
+</resources>

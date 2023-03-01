@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txtNum1">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edit_num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/txtIngresarDato"
+        android:inputType="number">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txtNum2">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edit_num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/txtIngresarDato"
+        android:inputType="number">
+
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/activity_main_suma"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btnSum"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:onClick="suma"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/activity_main_resta"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btnRes"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:onClick="restar"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/activity_main_mul"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btnMul"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:onClick="mul"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/activity_main_div"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btnDiv"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:onClick="div"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:text="@string/txtResultado"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </TextView>
+
+</LinearLayout>
